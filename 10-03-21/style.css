@@ -1,0 +1,314 @@
+/* Flex Cards on a Touch Device */
+.parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .child {
+    flex-grow: 1;
+  }
+  
+  .child:last-child {
+    width: 100%;
+  }
+    
+  /* --------- Non-flexbox related styles --------- */
+  .parent > div {
+    margin: 2%;
+    font-size: 60px;
+    line-height: 130px;
+    color: #ffe8c3;
+    text-align: center;
+    background-color: #3c76ce;
+    border-radius: 10px;
+    border: 10px solid #f1f0ee;
+  }
+  
+  body {
+    padding: 20px;
+    background-color: #282c35;
+    font-family: Verdana;
+    font-weight: 600;
+  }
+
+  /* Flex cards with equal heights */
+
+   /* .parent {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .child {
+    flex-grow: 1;
+    flex-basis: 0;
+  } */ 
+
+  /* --------- Non-flexbox related styles --------- */
+  /* .parent > div {
+    margin: 2%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffeedf;
+    background-color: #1a8be7;
+    border-radius: 10px;
+    border: 10px solid #e7e7e6;
+  }
+  
+  body {
+    padding: 20px;
+    background-color: #282c35;
+    font-family: Verdana;
+  }  */
+ 
+
+   /* ---------Flex Cards with Content-based Height --------- */
+
+  /* .parent {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .child {
+    flex-grow: 1;
+    flex-basis: 0;
+  } */
+    
+  /* --------- Non-flexbox related styles --------- */
+  /* .parent > div {
+    margin: 2%;
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffeedf;
+    background-color: #1391e6;
+    border-radius: 10px;
+    border: 10px solid #f7f9fa;
+  }
+  
+  body {
+    padding: 20px;
+    background-color: #282c35;
+    font-family: Verdana;
+  } */
+
+
+  /* --------- A Flex Card with Content-controlled Width
+--------- */
+
+/* .parent {
+    display: flex;
+  }
+  
+  .child:last-child {
+    flex-shrink: 0;
+  } */
+    
+  /* --------- Non-flexbox related styles --------- */
+  /* .parent > div {
+    margin: 2%;
+    padding: 10px 40px;
+    font-size: 60px;
+    line-height: 100px;
+    color: #ffe8c3;
+    text-align: center;
+    background-color: #178fd4;
+    border-radius: 10px;
+    border: 10px solid #fcfbf9;
+  }
+  
+  .parent > div:last-child {
+    padding: 10px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffe8c3;
+  }
+  
+  body {
+    padding: 20px;
+    background-color: #282c35;
+    font-family: Verdana;
+    font-weight: 600;
+  } */
+
+  /* Centered Flex Cards */
+
+  /* .parent {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  } */
+    
+  /* --------- Non-flexbox related styles --------- */
+  /* .parent {
+    height: 100vh;
+  }
+  
+  .parent > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+    padding: 10px 30px;
+    font-size: 60px;
+    line-height: 80px;
+    color: #ffeedf;
+    background-color: #0e7bd4;
+    border-radius: 10px;
+    border: 10px solid #faf8f4;
+  }
+  
+  body {
+    background-color: #282c35;
+    font-family: Verdana;
+    font-weight: 600;
+  } */
+
+  /* Plans and Prices Flex Cards */
+  /* .parent {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .child {
+    flex-grow: 1;
+  }
+  
+  .child:nth-child(2) {
+    align-self: stretch;
+  } */
+    
+  /* --------- Non-flexbox related styles --------- */
+  /* .parent > div {
+    margin: 2%;
+    padding: 20px;
+    font-size: 60px;
+    line-height: 80px;
+    color: #ffe8c3;
+    text-align: center;
+    background-color: #3d73e7;
+    border-radius: 10px;
+    border: 10px solid #f8f5f0;
+  }
+  
+  .parent > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body {
+    background-color: #282c35;
+    font-family: Verdana;
+    font-weight: 600;
+  } */
+
+  /*Three-column Flex Layout with Two Sidebars*/
+  /* .parent {
+    display: flex;
+  }
+  
+  .child:nth-child(2) {
+    flex-grow: 1;
+  }
+     */
+  /* --------- Non-flexbox related styles --------- */
+  /* .parent {
+    height: 100vh;
+  }
+  
+  .parent > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 1%;
+    padding: 10px 2%;
+    font-size: 60px;
+    line-height: 24px;
+    color: #ffeedf;
+    background-color: #498de7;
+    border-radius: 10px;
+    border: 10px solid #f3f1ee;
+  }
+  
+  body {
+    background-color: #282c35;
+    font-family: Verdana;
+    font-weight: 600;
+  } */
+
+  /*Webpage Flex Layout with a Header, Content, and Footer */
+
+  /* .parent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .child:nth-child(2) {
+    flex-grow: 1;
+  } */
+    
+  /* --------- Non-flexbox related styles --------- */
+  /* .parent > div {
+    margin: 1% 2%;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffe8c3;
+    text-align: center;
+    background-color: #4572d4;
+    border-radius: 10px;
+    border: 10px solid #f8f7f4;
+  }
+  
+  .parent > div:nth-child(2) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  body {
+    background-color: #282c35;
+    font-family: Verdana;
+    font-weight: 600;
+  } */
+
+  /* Webpage Flex Layout with a Header, Footer, and Sidebar*/
+  /* .parent {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .main {
+    display: flex;
+    flex-grow: 1;
+  }
+  
+  .content {
+    flex-grow: 1;
+  } */
+    
+  /* --------- Non-flexbox related styles --------- */
+  /* .child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1%;
+    padding: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    color: #ffe8c3;
+    background-color: #1c85e7;
+    border-radius: 10px;
+    border: 10px solid #f3f2f1;
+  }
+  
+  body {
+    background-color: #282c35;
+    font-family: Verdana;
+    font-weight: 600;
+  } */
