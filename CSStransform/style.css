@@ -1,0 +1,20 @@
+body{
+    background-color: rgb(222, 192, 241);
+}
+
+button {
+    height: 50px;
+    width: 120px;
+    font-size: 20px;
+    color: rgb(19, 18, 18);
+    border: none;
+    border-radius: 4px;
+    background-color: rgb(21, 221, 71);
+    transition-duration: 2000ms;
+    cursor: pointer;
+   }
+   button:hover {
+    /* transform: translate(500px); */        /*moving from left to right */
+    /*transform: translateY(300px); */        /*moving from top-bottom */
+     transform: translate(500px, 300px);  /*Move 500 pixels to the right and 300 pixels towards the bottom */
+   }
