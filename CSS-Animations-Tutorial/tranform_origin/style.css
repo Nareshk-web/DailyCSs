@@ -1,0 +1,29 @@
+.btn {
+    height: 80px;
+    width: 270px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+    transition-duration: 1000ms;
+    margin: 20px;
+   }
+   .btn:hover {
+    transform: rotate(30deg);
+   }
+   .btn1 {
+    /* transform-origin: top;  */
+    /* transform-origin: right; */
+    transform-origin: bottom right;
+   }
+   .btn2 {
+    /* transform-origin: bottom;  */
+    /* transform-origin: left;  */
+    transform-origin: bottom left;
+   }
+   .center-div{
+       align-items: center;
+       text-align: center;
+       padding-top: 150px;
+   }

@@ -1,0 +1,16 @@
+button {
+    height: 80px;
+    width: 120px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: blue;
+    transition-duration: 2000ms;
+    cursor: pointer;
+   }
+   button:hover {
+    /* transform: skewX(30deg); */
+    /* transform: skewY(30deg); */
+    transform: skew(50deg);
+   }
+   

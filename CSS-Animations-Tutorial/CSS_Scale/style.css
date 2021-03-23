@@ -1,0 +1,24 @@
+button {
+    height: 80px;
+    width: 120px;
+    font-size: 20px;
+    color: white;
+    border: none;
+    background-color: blue;
+    transition-duration: 2000ms;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+   button:hover {
+    /* transform: scaleX(5); */
+    /* transform: scaleY(5); */
+    transform: scale(10, 5);
+
+   }
+   .scale{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   
