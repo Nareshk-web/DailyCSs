@@ -11,7 +11,7 @@ html, body{
   
   .sky{
     height: 40%;
-    background: skyblue;
+    background: #87ceeb;
   }
   
   .grass{
@@ -75,6 +75,44 @@ html, body{
     top: 0;
     animation:wind 50s linear infinite reverse;
 }
+.tree{
+  height:190px;
+  width: 130px;
+}
+.tree1{
+  height:190px;
+  width: 130px;
+  transform: translateX(800px);
+}
+.tree2{
+  height:90px;
+  width: 50px;
+  transform: translateY(-100px);
+}
+.stone{
+  height: 190px;
+  width: 200px;
+  transform: translateX(600px) scaleX(-2);
+}
+.plane{
+  height: 200px;
+  width: 200px;
+  top:10px;
+  animation: drive 3s infinite both linear,
+               fly 0.5s 1.2s ease;
+}
+@keyframes fly{
+  0%{
+      top: 10px;
+  }
+  50%{
+     top: -100px;
+  }
+  100%{
+    top: 10px;
+  }
+}
+
 @keyframes drive{
    from{ transform: translateX(-200px);}
    to{transform: translateX(1200px);}
