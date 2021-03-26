@@ -1,0 +1,23 @@
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns:repeat(12,1fr);
+    grid-template-rows: 40px auto 40px;
+    grid-gap:5px;
+}
+.header{
+  
+    grid-column: 1 / -1;
+}
+.menu{
+   
+    height: 200px;
+}
+.content{
+    grid-column:  2 / -1;
+    height: 200px;
+}
+.footer{
+
+    grid-column: 1 / -1;
+}
