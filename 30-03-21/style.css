@@ -1,0 +1,112 @@
+.morphing-1 {
+    padding:8px;
+    box-shadow:0 0 0px 80px var(--c,#0000);
+    background:var(--c,#0000);
+      transition: 0.3s,box-shadow 0.3s 0.3s,background 0.3s 0.3s,color 0.3s 0.3s;
+    clip-path: polygon(0 0,100% 0,100% 100%,0 100%);
+  }
+  .morphing-1:hover {
+      --c:#000;
+      color:#fff;
+      transition: 0.3s,clip-path 0.4s 0.3s; 
+    clip-path: polygon(8px 0,calc(100% + 8px) 0,calc(100% - 8px) 100%,-8px 100%);
+  }
+  
+ .morphing-2 {
+    padding:8px;
+    box-shadow:0 0 0px 80px var(--c,#0000);
+    background:var(--c,#0000);
+      transition: 0.3s,box-shadow 0.3s 0.3s,background 0.3s 0.3s,color 0.3s 0.3s;
+    clip-path: polygon(0 0,50% 0,100% 0,100% 50%,100% 100%,50% 100%,0 100%, 0 50%);
+  }
+  .morphing-2:hover {
+      --c:#000;
+      color:#fff;
+      transition: 0.3s,clip-path 0.4s 0.3s; 
+    clip-path: polygon(-30px -30px,50% 0,calc(100% + 30px) -30px,100% 50%,calc(100% + 30px) calc(100% + 30px),50% 100%,-30px calc(100% + 30px), 0 50%);
+  }
+   
+ .morphing-3 {
+    padding:8px;
+    box-shadow:0 0 0px 80px var(--c,#0000);
+    background:var(--c,#0000);
+      transition: 0.3s,box-shadow 0.3s 0.3s,background 0.3s 0.3s,color 0.3s 0.3s;
+    clip-path: polygon(0 0,50% 0,100% 0,100% 100%,50% 100%,0 100%);
+  }
+  .morphing-3:hover {
+      --c:#000;
+      color:#fff;
+      transition: 0.3s,clip-path 0.4s 0.3s; 
+    clip-path: polygon(0 -20px,50% 0,100% -20px,100% 100%,50% calc(100% + 20px),0 100%);
+  }
+  
+ .morphing-4 {
+    padding:8px;
+    box-shadow:0 0 0px 80px var(--c,#0000);
+    background:var(--c,#0000);
+      transition: 0.3s,box-shadow 0.3s 0.3s,background 0.3s 0.3s,color 0.3s 0.3s;
+    clip-path: polygon(0 0,50% 0,50% 10px,50% 0,100% 0,100% 50%,100% 100%,50% 100%,50% calc(100% - 10px),50% 100%,0 100%,0 50%);
+  }
+  .morphing-4:hover {
+      --c:#000;
+      color:#fff;
+      transition: 0.3s,clip-path 0.4s 0.3s; 
+    clip-path: polygon(-30px -20px,calc(50% - 20px) -20px,50% 10px,calc(50% + 20px) -20px,calc(100% + 30px) -20px,100% 50%,calc(100% + 30px) calc(100% + 20px),calc(50% + 20px) calc(100% + 20px),50% calc(100% - 10px),calc(50% - 20px) calc(100% + 20px),-30px calc(100% + 20px),0 50%);
+  }
+   
+ .morphing-5 {
+    padding:8px;
+    box-shadow:0 0 0px 80px var(--c,#0000);
+    background:var(--c,#0000);
+      transition: 0.3s,box-shadow 0.3s 0.3s,background 0.3s 0.3s,color 0.3s 0.3s;
+    clip-path: polygon(0 0,10px 0,10px 0,100% 0,100% 50%,100% 100%,10px 100%,10px 100%,0 100%,0 calc(50% + 10px),0 calc(50% + 10px),0 calc(50% + 10px),0 calc(50% - 10px),0 calc(50% - 10px),0 calc(50% - 10px));
+  }
+  .morphing-5:hover {
+      --c:#000;
+      color:#fff;
+      transition: 0.3s,clip-path 0.4s 0.3s; 
+    clip-path: polygon(0 -20px,20px -30px,20px 0,calc(100% - 10px) 0,calc(100% + 20px) 50%,calc(100% - 10px) 100%,20px 100%,20px calc(100% + 30px),0 calc(100% + 20px),0 calc(50% + 10px),-35px calc(50% + 10px),-40px calc(50% + 15px),-40px calc(50% - 15px),-35px calc(50% - 10px),0 calc(50% - 10px))
+  }
+ 
+  
+ div.morphing-6 {
+    margin:50px 25px;
+    padding:8px;
+    box-shadow:0 0 0px 80px var(--c,#0000);
+    background:var(--c,#0000);
+      transition: 0.3s,box-shadow 0.3s 0.3s,background 0.3s 0.3s,color 0.3s 0.3s;
+    clip-path: polygon(0 0,0 0,40% 0,45% 0,55% 0,60% 0,100% 0,100% 0,100% 50%,100% 100%,100% 100%,60% 100%,55% 100%,45% 100%,40% 100%,0 100%,0 100%,0 50%);
+  }
+  .morphing-6:hover {
+      --c:#000;
+      color:#fff;
+      transition: 0.3s,clip-path 0.4s 0.3s; 
+    clip-path: polygon(0 -90px,0 10%,30% 0,40% -20px,60% -20px,70% 0,100% 10%,100% -90px,calc(100% + 15px) 50%,100% calc(100% + 90px),100% 90%,70% 100%,60% calc(100% + 20px),40% calc(100% + 20px),30% 100%,0 90%,0 calc(100% + 90px),-20px 50%);
+  }
+   
+ div.morphing-7 {
+    padding:8px;
+    box-shadow:0 0 0px 80px var(--c,#0000);
+    background:var(--c,#0000);
+      transition: 0.3s,box-shadow 0.3s 0.3s,background 0.3s 0.3s,color 0.3s 0.3s;
+    clip-path: polygon(0 0,20% 0,30% 0,calc(50% - 10px) 0,calc(50% - 10px) 0,50% 0,50% 0,calc(50% + 10px) 0,calc(50% + 10px) 0,70% 0,80% 0,100% 0,100% 90%,100% 100%,60% 100%,50% 100%,40% 100%,0 100%,0 90%);
+  }
+  .morphing-7:hover {
+      --c:#000;
+      color:#fff;
+      transition: 0.3s,clip-path 0.4s 0.3s; 
+    clip-path: polygon(-80px -40px,20% -30px,30% 0,calc(50% - 15px) 0,calc(50% - 10px) -20px,calc(50% - 8px) -15px,calc(50% + 8px) -15px,calc(50% + 10px) -20px,calc(50% + 15px) 0,70% 0,80% -30px,calc(100% + 80px) -40px,100% 80%,calc(100% + 20px) calc(100% + 20px),60% 100%,50% calc(100% + 40px),40% 100%,-20px calc(100% + 20px),0 80%);
+  }	
+ /**/
+ [class] {
+   display:inline-block;
+   vertical-align: middle;
+   font-size:40px;
+   font-family:sans-serif;
+   margin:25px;
+   cursor:pointer;
+ }
+ 
+ body {
+   text-align:center;
+ }
