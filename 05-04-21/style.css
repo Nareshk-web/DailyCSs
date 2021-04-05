@@ -1,0 +1,606 @@
+/* Mozilla Firefox */
+/* Opera */
+/* Webkit (Safari/Chrome 10) */
+/* Webkit (Chrome 11+) */
+/* W3C Markup */
+.title {
+    text-align: center;
+  }
+  body {
+    background: #85e9ac;
+  }
+  
+  .box {
+    position: relative;
+    margin: auto;
+    display: block;
+    /*optional background or border*/
+    margin-top: -2%;
+    width: 600px;
+    height: 420px;
+    background: none;
+  }
+  
+  .plate {
+    position: absolute;
+    top: 5.5%;
+    left: 13%;
+    width: 75%;
+    height: 87%;
+    background: radial-gradient(ellipse farthest-corner at center, #f6f8f9 0%, #e5ebee 50%, #d7dee3 51%, #f5f7f9 100%);
+    border-radius: 50%;
+  }
+  
+  .bread-down-shadow {
+    position: absolute;
+    top: 22%;
+    left: 22%;
+    width: 57%;
+    height: 59%;
+    background: #cba231;
+    border-radius: 45%;
+  }
+  
+  .bread-down {
+    position: absolute;
+    top: 5%;
+    left: 2%;
+    width: 97%;
+    height: 90%;
+    background: #f3c23f;
+    border-radius: 45%;
+  }
+  
+  .bread-down-line-1 {
+    position: absolute;
+    top: 88%;
+    left: 22%;
+    width: 1%;
+    height: 5%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .bread-down-line-2 {
+    position: absolute;
+    top: 90%;
+    left: 26%;
+    width: 1%;
+    height: 6%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .bread-down-line-3 {
+    position: absolute;
+    top: 88.5%;
+    right: 22%;
+    width: 1%;
+    height: 5%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .bread-down-line-4 {
+    position: absolute;
+    top: 90%;
+    right: 26%;
+    width: 1%;
+    height: 6%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .bread-down-line-5 {
+    position: absolute;
+    top: 95%;
+    right: 36%;
+    width: 1%;
+    height: 4%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .meat-shadow {
+    position: absolute;
+    top: 17%;
+    left: 22%;
+    width: 57%;
+    height: 59%;
+    background: #8f4731;
+    border-radius: 47%;
+  }
+  
+  .meat {
+    position: absolute;
+    top: 3%;
+    width: 100%;
+    height: 90%;
+    background: #a65c52;
+    border-radius: 47%;
+  }
+  
+  .cheese {
+    position: absolute;
+    top: 16%;
+    left: 23%;
+    width: 53%;
+    height: 50%;
+    background: #f78009;
+    border-radius: 40%;
+    border: #eebd02 5px solid;
+  }
+  
+  .melty-cheese-1 {
+    position: absolute;
+    top: 68.3%;
+    left: 46%;
+    width: 8%;
+    height: 7%;
+    background: #eebd02;
+    -webkit-clip-path: polygon(50% 100%, 22% 0, 84% 0);
+    clip-path: polygon(50% 100%, 22% 0, 84% 0);
+  }
+  
+  .melty-cheese-2 {
+    position: absolute;
+    top: 68.3%;
+    left: 53%;
+    width: 8%;
+    height: 7%;
+    background: #eebd02;
+    -webkit-clip-path: polygon(50% 100%, 22% 0, 84% 0);
+    clip-path: polygon(50% 100%, 22% 0, 84% 0);
+  }
+  
+  .melty-cheese-3 {
+    position: absolute;
+    top: 67.5%;
+    left: 56%;
+    width: 8%;
+    height: 11%;
+    background: #eebd02;
+    -webkit-clip-path: polygon(50% 100%, 22% 0, 84% 0);
+    clip-path: polygon(50% 100%, 22% 0, 84% 0);
+  }
+  
+  .greens-down {
+    position: absolute;
+    top: 16%;
+    left: 21%;
+    width: 56%;
+    height: 50%;
+    background: #80c522;
+    border-radius: 40%;
+    border: #219a22 5px solid;
+    -webkit-clip-path: polygon(99% 78%, 85% 84%, 69% 80%, 57% 90%, 41% 78%, 29% 93%, 11% 85%, 3% 70%, 1% 58%, 20% 54%, 42% 58%, 61% 53%, 86% 60%, 96% 66%);
+    clip-path: polygon(99% 78%, 85% 84%, 69% 80%, 57% 90%, 41% 78%, 29% 93%, 11% 85%, 3% 70%, 1% 58%, 20% 54%, 42% 58%, 61% 53%, 86% 60%, 96% 66%);
+  }
+  
+  .onion-1 {
+    position: absolute;
+    top: 50%;
+    left: 41.5%;
+    width: 36%;
+    height: 7%;
+    background: linear-gradient(to right, #9c2988 0%, #CFD8DC 100%);
+    border-radius: 40%;
+  }
+  
+  .onion-1-line-1 {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    width: 0.7%;
+    height: 7%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .onion-1-line-2 {
+    position: absolute;
+    top: 50.5%;
+    left: 72%;
+    width: 0.7%;
+    height: 6%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .onion-1-line-3 {
+    position: absolute;
+    top: 50.5%;
+    left: 74%;
+    width: 0.5%;
+    height: 6%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .onion-1-line-4 {
+    position: absolute;
+    top: 51.5%;
+    left: 76%;
+    width: 0.3%;
+    height: 4%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .greens-up {
+    position: absolute;
+    top: 9%;
+    left: 23%;
+    width: 56%;
+    height: 50%;
+    background: #80c522;
+    border-radius: 40%;
+    border: #219a22 5px solid;
+    -webkit-clip-path: polygon(1% 87%, 8% 79%, 25% 91%, 32% 79%, 38% 91%, 57% 82%, 60% 96%, 77% 98%, 81% 78%, 93% 87%, 98% 73%, 83% 64%, 53% 66%, 26% 57%, 9% 65%, 0% 67%);
+    clip-path: polygon(1% 87%, 8% 79%, 25% 91%, 32% 79%, 38% 91%, 57% 82%, 60% 96%, 77% 98%, 81% 78%, 93% 87%, 98% 73%, 83% 64%, 53% 66%, 26% 57%, 9% 65%, 0% 67%);
+  }
+  
+  .onion-2 {
+    position: absolute;
+    top: 51%;
+    left: 21.5%;
+    width: 22%;
+    height: 5%;
+    background: linear-gradient(to right, #9c2988 0%, #CFD8DC 100%);
+    border-radius: 40%;
+  }
+  
+  .onion-2-line-1 {
+    position: absolute;
+    top: 51%;
+    left: 25%;
+    width: 0.4%;
+    height: 5%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .onion-2-line-2 {
+    position: absolute;
+    top: 51%;
+    left: 26%;
+    width: 0.4%;
+    height: 5%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .tomato {
+    position: absolute;
+    top: 15.5%;
+    left: 33%;
+    width: 43%;
+    height: 37%;
+    background: linear-gradient(to right, #F06292 0%, #f44336 100%);
+    border-radius: 48%;
+    border: #e10733 5px solid;
+  }
+  
+  .bread-upper-shadow {
+    position: absolute;
+    top: 2%;
+    left: 22%;
+    width: 57%;
+    height: 49%;
+    background: #cba231;
+    border-radius: 47%;
+  }
+  
+  .bread-upper {
+    position: absolute;
+    top: 0%;
+    left: 2%;
+    width: 98%;
+    height: 96%;
+    background: #f3c23f;
+    border-radius: 47%;
+  }
+  
+  .bread-upper-line-1 {
+    position: absolute;
+    top: 88%;
+    left: 22%;
+    width: 1%;
+    height: 5%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .bread-upper-line-2 {
+    position: absolute;
+    top: 90%;
+    left: 26%;
+    width: 1%;
+    height: 6%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .bread-upper-line-3 {
+    position: absolute;
+    top: 88.5%;
+    right: 22%;
+    width: 1%;
+    height: 5%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .bread-upper-line-4 {
+    position: absolute;
+    top: 90%;
+    right: 26%;
+    width: 1%;
+    height: 6%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .bread-upper-line-5 {
+    position: absolute;
+    top: 95%;
+    right: 36%;
+    width: 1%;
+    height: 4%;
+    background: #3E2723;
+    border-radius: 45%;
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  }
+  
+  .sesame-small-1 {
+    position: absolute;
+    top: 15.5%;
+    left: 33%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-2 {
+    position: absolute;
+    top: 15.5%;
+    right: 33%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-3 {
+    position: absolute;
+    bottom: 15.5%;
+    left: 33%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-4 {
+    position: absolute;
+    bottom: 15.5%;
+    right: 33%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-5 {
+    position: absolute;
+    top: 34.5%;
+    left: 17%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-6 {
+    position: absolute;
+    top: 35.5%;
+    right: 23%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-7 {
+    position: absolute;
+    bottom: 32.5%;
+    left: 23%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-8 {
+    position: absolute;
+    bottom: 35.5%;
+    right: 26%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-9 {
+    position: absolute;
+    top: 12.5%;
+    left: 50%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-10 {
+    position: absolute;
+    bottom: 12.5%;
+    right: 50%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-11 {
+    position: absolute;
+    top: 19.5%;
+    left: 77%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-12 {
+    position: absolute;
+    top: 38.5%;
+    left: 86%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-small-13 {
+    position: absolute;
+    bottom: 36.5%;
+    left: 85%;
+    width: 2%;
+    height: 2%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-medium-1 {
+    position: absolute;
+    top: 27.5%;
+    left: 33%;
+    width: 3%;
+    height: 4%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-medium-2 {
+    position: absolute;
+    top: 32.5%;
+    right: 36%;
+    width: 3%;
+    height: 4%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-medium-3 {
+    position: absolute;
+    bottom: 27.5%;
+    left: 33%;
+    width: 3%;
+    height: 4%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-medium-4 {
+    position: absolute;
+    bottom: 25.5%;
+    right: 26%;
+    width: 3%;
+    height: 4%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-medium-5 {
+    position: absolute;
+    bottom: 37.5%;
+    left: 43%;
+    width: 3%;
+    height: 4%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-medium-6 {
+    position: absolute;
+    top: 45.5%;
+    right: 21%;
+    width: 3%;
+    height: 4%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-big-1 {
+    position: absolute;
+    top: 45.5%;
+    left: 26%;
+    width: 4%;
+    height: 5%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-big-2 {
+    position: absolute;
+    top: 41.5%;
+    left: 46%;
+    width: 4%;
+    height: 5%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+  
+  .sesame-big-3 {
+    position: absolute;
+    top: 65.5%;
+    left: 56%;
+    width: 4%;
+    height: 5%;
+    background: #fde9af;
+    border-radius: 48%;
+  }
+
+  
